@@ -134,7 +134,65 @@ margin-top: 20px;
     border: none;
 }
 
+/* flower section style */
 
+.flower{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 70px;
+    margin-top: 50px;
+   
+  
+}
+.flower{
+    position: relative;
+}
+.flower .badge{
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    width: 100%;
+    max-width: 180px;
+    height: 180px;
+}
+.flower-image,.flower-content{
+    padding: 150px 0;
+    
+}
+
+
+.flower-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.flower-content{
+    width: 80%;
+    
+}
+.flower-title{
+    font-weight: bold;
+    font-size: 55px;
+    color: #000000;
+}
+
+.flower-card{
+    display: flex;
+}
+.flower-description{
+    font-weight: 400;
+    font-size: 22px;
+    color: #00000080;
+    padding: 10px 0;
+    text-align: left;
+}
+.dot{
+    font-weight: 600;
+    font-size: 42px;
+      color: #00000080;
+}
 
 @media screen and (max-width:576px) {
    .home,
@@ -244,6 +302,34 @@ margin-top: 20px;
     max-width: 100%;
   }
 
+/* flower card */
+.flower{
+    flex-direction: column;
+    margin-top: 5px;
+    gap: 10px;
+}
 
+.flower-image img{
+    width: 100%;
+    max-width: 340px;
+    
+}
 
+.badge{
+        display: none;
+}
+
+.flower-title{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.flower-description{
+font-weight: 400;
+font-size: 14px;
+}
+
+.flower-image,.flower-content{
+    padding:10px 30px;
+}
 }
