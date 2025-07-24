@@ -358,7 +358,7 @@ background-size: cover;
 }
 
 .join-input{
-    width: 600px;
+    width: 500px;
     height: 35px;
     padding-left: 10px;
     position: relative;
@@ -366,7 +366,7 @@ background-size: cover;
 }
 .join-button{
     position: absolute;
-    left:900px;
+    left:890px;
     width: 90px;
     height: 40px;
     background-color: #E95A08;
@@ -616,7 +616,7 @@ font-size: 14px;
 }
 
 .join-input{
-    width: 300px;
+    width: 200px;
     height: 35px;
     padding-left: 10px;
     position: relative;
