@@ -610,7 +610,7 @@ font-size: 14px;
   align-items: start;
   text-align: start;
   margin-top: 20px;
- padding-left: 90px;
+ padding-left: 50px;
  
 }
 .join-title{
@@ -628,7 +628,7 @@ font-size: 14px;
 }
 .join-button{
     position: absolute;
-    left:280px;
+    left:230px;
     width: 90px;
     height: 40px;
     background-color: #E95A08;
